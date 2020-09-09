@@ -16,6 +16,18 @@ allprojects {
     repositories {
         google()
         jcenter()
+
+        maven {
+            url "https://raw.githubusercontent.com/Kandy-IO/kandy-cpaas-android-sdk/master/dist/"
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
     }
 }
 
